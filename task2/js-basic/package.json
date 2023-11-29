@@ -1,0 +1,23 @@
+{
+    "name": "js-basic",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "",
+    "scripts": {
+        "test": "mocha src",
+        "prepare": "husky install",
+        "prettier": "prettier -w .",
+        "prettier:check": "prettier -c ."
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "husky": "^8.0.1",
+        "lint-staged": "^13.0.3",
+        "mocha": "^10.1.0",
+        "prettier": "2.7.1"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write ."
+    }
+}

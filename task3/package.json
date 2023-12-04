@@ -1,0 +1,24 @@
+{
+  "name": "js-oop-tasks",
+  "version": "1.0.0",
+  "description": "labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src",
+    "prettier:write": "prettier -w src"
+  },
+  "dependencies": {
+    "mocha": "^10.1.0",
+    "prettier": "^2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Pier/js-oop-tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John-Pier/js-oop-tasks/issues"
+  },
+  "homepage": "https://github.com/John-Pier/js-oop-tasks#readme"
+}

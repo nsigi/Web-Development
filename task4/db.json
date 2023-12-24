@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": 2,
+      "name": "Помидор",
+      "description": "Красный, идеальный",
+      "img": "imgs/tomat.jpg",
+      "code": "3422",
+      "provider": "Африканская грядка"
+    },
+    {
+      "id": 1,
+      "name": "Огурец",
+      "description": "Свежий, зеленый",
+      "img": "imgs/cucumber.jpg",
+      "code": "0237",
+      "provider": "Волжская грядка"
+    },
+    {
+      "id": 3,
+      "name": "Капуста",
+      "description": "Один початок",
+      "img": "imgs/cabbage.png",
+      "code": "3453",
+      "provider": "Поля Франции"
+    }
+  ]
+}

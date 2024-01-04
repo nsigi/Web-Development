@@ -1,0 +1,27 @@
+{
+	"name": "movies-dashboard",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"server": "json-server -p 5000 --watch server/db.json",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@ant-design/icons": "^5.2.6",
+		"antd": "^5.12.6",
+		"axios": "^1.6.3",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.6.1"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.26",
+		"@types/react-dom": "^18.0.9",
+		"@vitejs/plugin-react": "^3.0.0",
+		"json-server": "^0.17.4",
+		"vite": "^4.0.0"
+	}
+}

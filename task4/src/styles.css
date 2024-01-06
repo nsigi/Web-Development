@@ -4,7 +4,6 @@
     align-items: center;
     padding: 5px;
     background-color: #D9D9D9;
-    ;
 }
 .main-container{
     display: flex;
@@ -47,7 +46,6 @@
 
 #btn-setup:focus{
     border: 2px solid #3333337A;
-
 }
 
 .btns-change{
